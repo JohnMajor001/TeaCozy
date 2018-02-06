@@ -1,0 +1,35 @@
+body {
+  background-color: black;
+  color: seashell;
+  font-family: Helvetica;
+  font-size: 22px;
+  opacity: 0.9;
+  margin: 0;
+}
+/*.border {
+  border: 1px solid white;
+}*/
+
+                /* Top Bar */
+.topContainer {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  padding: 9.5px 10px;
+  width: 100%;
+}
+.logo {
+  height: 50px;
+}
+a {
+  color: seashell;
+}
+nav {
+  margin-right: 20px;
+  justify-content: space-between;
+  width: 400px;
+  display: flex;
+}
